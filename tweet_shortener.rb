@@ -44,7 +44,7 @@ def selective_tweet_shortener(tweet)
   end
 end
 
-def shortended_tweet_truncator(tweet)
+def shortened_tweet_truncator(tweet)
   if tweet.length > 137
     tweak = tweet[1..137]
     out = tweak.split(" ")
