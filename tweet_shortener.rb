@@ -46,7 +46,7 @@ end
 
 def shortened_tweet_truncator(tweet)
   if tweet.length > 137
-    tweak = tweet[1..136]
+    tweak = tweet[1..137]
     out = tweak.split(" ")
     out.push("...")
     out.join(' ')
